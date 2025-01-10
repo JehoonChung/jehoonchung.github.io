@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "jehoonpic.jpg"
   name             : "Jehoon Chung"
-  pronouns         : "he/him"  
+  pronouns         : #"he/him"  
   bio              : "Finance Graduate Student at UIUC"
   location         : "Champaign, IL, USA"
   employer         : #"University of Illinois Urbana-Champaign"
