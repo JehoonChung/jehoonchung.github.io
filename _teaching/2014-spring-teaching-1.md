@@ -2,9 +2,7 @@
 title: "Korea University Business School"
 collection: teaching
 type: "Teaching Assistant"
-permalink: /teaching/2014-spring-teaching-1
 venue: "for Prof. Sunwoo Hwang"
-date: 2021-01-01
 location: "City, Country"
 ---
 
