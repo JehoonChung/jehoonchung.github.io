@@ -1,5 +1,7 @@
 ---
 title: "Research"
+collection: research
+category: manuscripts
 permalink: /research/
 author_profile: true
 ---
