@@ -40,3 +40,25 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+/* Apply PT Serif globally */
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Adjust this color to your preference */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700; /* Use bold for headings */
+    margin: 1rem 0;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
