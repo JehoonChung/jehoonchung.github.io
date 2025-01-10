@@ -21,7 +21,7 @@ repository: "JehoonChung/jehoonchung.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jehoonpic.png"
+  avatar           : "jehoonpic.jpg"
   name             : "Jehoon Chung"
   pronouns         : "he/him"  
   bio              : "Finance Graduate Student at University of Illinois Urbana-Champaign"
