@@ -6,9 +6,7 @@ venue: "for Prof. Sunwoo Hwang"
 location: "City, Country"
 ---
 
--Financial Management (BUSS207)
--Corporate Finance (BUSS384)
--Seminar in Finance (BUS736)
+Financial Management (BUSS207), Corporate Finance (BUSS384), Seminar in Finance (BUS736)
 
 Heading 1
 ======
