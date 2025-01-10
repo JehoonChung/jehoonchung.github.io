@@ -218,7 +218,7 @@ collections:
   CV:
     output: true
     permalink: /:collection/:path/
-  Research:
+  research:
     output: true
     permalink: /:collection/:path/
   #talks:
