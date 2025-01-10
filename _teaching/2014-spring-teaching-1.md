@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "Korea University Business School"
 collection: teaching
-type: "Undergraduate course"
+type: #"Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+venue: "TA for Prof. Sunwoo Hwang"
+date: #201-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Financial Management (BUSS207), Corporate Finance (BUSS384), Seminar in Finance (BUS736)
 
 Heading 1
 ======
