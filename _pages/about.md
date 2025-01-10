@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to My Academic Website!"
+title: "Welcome to my website!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,9 +10,9 @@ redirect_from:
 
 I am **Jehoon Chung**, a finance graduate student at the University of Illinois Urbana-Champaign. My research focuses on corporate and household finance, with a particular focus on how environmental risks affect financial decision-making and real economic outcomes.
 
-My current research "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act", explores how home insurance availability influences financial behaviors such as delinquency and bankruptcy, especially among vulnerable populations affected by wildfires.
+My current research "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act", explores how home insurance availability influences household credit such as delinquency and bankruptcy, especially among vulnerable populations affected by wildfires.
 
-Previously, I wrote my master's thesis at Korea University, "the real effects of green corporate restructuring", which analyzes how heightened environmental risks lead firms to sell assets and how these decisions affect operating performance, firm value, and sustainability conditions.
+Previously, I wrote my master's thesis at Korea University, "The Real Effects of Green Corporate Restructuring", which analyzes how heightened environmental risks lead firms to divestitures and how these decisions affect firm value and sustainability conditions.
 
 Here is the link to my [CV](/files/CV_JehoonChung.pdf)
 
