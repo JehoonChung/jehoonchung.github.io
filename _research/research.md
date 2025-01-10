@@ -3,7 +3,6 @@ layout: single
 author_profile: true
 title: "Research"
 collection: research
-category: manuscripts
 permalink: /research/
 ---
 
