@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am **Jehoon Chung**, a finance graduate student at the University of Illinois Urbana-Champaign. My research focuses on corporate and household finance, with a particular emphasis on how environmental risks affect financial decision-making and real economic outcomes.
+I am a finance graduate student at Gies College of Business, University of Illinois Urbana-Champaign. My research focuses on corporate and household finance, with a particular emphasis on how environmental risks affect financial decision-making and real economic outcomes.
 
 My current project, "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act", examines how the availability of home insurance influences household credit and mortgage outcomes while addressing potential market challenges.
 
