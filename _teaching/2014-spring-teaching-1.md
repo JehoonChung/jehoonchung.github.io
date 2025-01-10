@@ -1,10 +1,10 @@
 ---
 title: "Korea University Business School"
 collection: teaching
-type: #"Undergraduate course"
+type: "Teaching Assistant"
 permalink: /teaching/2014-spring-teaching-1
-venue: "TA for Prof. Sunwoo Hwang"
-date: #201-01-01
+venue: "for Prof. Sunwoo Hwang"
+date: 2021-01-01
 location: "City, Country"
 ---
 
