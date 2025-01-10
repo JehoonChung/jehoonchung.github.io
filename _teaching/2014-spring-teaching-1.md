@@ -8,7 +8,9 @@ date: 2021-01-01
 location: "City, Country"
 ---
 
-Financial Management (BUSS207), Corporate Finance (BUSS384), Seminar in Finance (BUS736)
+-Financial Management (BUSS207)
+-Corporate Finance (BUSS384)
+-Seminar in Finance (BUS736)
 
 Heading 1
 ======
