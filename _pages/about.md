@@ -1,23 +1,19 @@
 ---
 permalink: /
-title: "Jehoon Chung"
+title: "Welcome to My Academic Website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Welcome to My Academic Website
 
-I am **Jehoon Chung**, a Ph.D. candidate in Finance at the University of Illinois Urbana-Champaign. My research focuses on corporate finance, household finance, and the impact of environmental risks on financial decision-making.
+I am **Jehoon Chung**, a finance graduate student at the University of Illinois Urbana-Champaign. My research focuses on corporate and household finance, with a particular focus on how environmental risks affect financial decision-making and real economic outcomes.
 
-### About This Site
-- Explore my [publications](/publications/)
-- Learn about my [teaching](/teaching/)
-- View my [CV](/files/Jehoon_Chung_CV.pdf)
+My current research "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act", explores how home insurance availability influences financial behaviors such as delinquency and bankruptcy, especially among vulnerable populations affected by wildfires.
 
-### Latest News
-- January 2025: Submitted a working paper on wildfire insurance and household credit outcomes.
-- December 2024: Awarded second place in the Econometric Analysis Paper Contest.
+Previously, I wrote my master's thesis at Korea University, "the real effects of green corporate restructuring", which analyzes how heightened environmental risks lead firms to sell assets and how these decisions affect operating performance, firm value, and sustainability conditions.
+
+Here is the link to my [CV](/files/CV_JehoonChung.pdf)
 
 Feel free to reach out to me at [jehoonc2@illinois.edu](mailto:jehoonc2@illinois.edu) or connect on [LinkedIn](https://www.linkedin.com/in/jehoon-chung/).
