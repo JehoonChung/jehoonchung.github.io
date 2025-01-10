@@ -14,4 +14,4 @@ My current project, "Guaranteeing Home Insurance: Evidence from California’s W
 
 Previously, I wrote my master's thesis at Korea University, "The Real Effects of Green Corporate Restructuring", which investigated how heightened environmental risks drive corporate divestitures and the implications of these decisions on firm value and sustainability outcomes.
 
-Here is the link to my [CV](/files/CV_JehoonChung.pdf)
+Here is the link to my [CV](/files/CV_JehoonChung.pdf).
