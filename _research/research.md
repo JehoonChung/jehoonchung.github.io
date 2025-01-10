@@ -1,9 +1,10 @@
 ---
+layout: single
+author_profile: true
 title: "Research"
 collection: research
 category: manuscripts
 permalink: /research/
-author_profile: true
 ---
 
 ## Work in Progress
