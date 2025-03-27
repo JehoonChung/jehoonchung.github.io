@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a finance graduate student at Gies College of Business, UIUC. My research focuses on the intersection of corporate finance, household finance, and environmental economics, examining how environmental risks impact financial decision-making and socioeconomic outcomes.
+I am a second-year Finance PhD student at the Kelley School of Business, Indiana University. My research focuses on the intersection of corporate finance, household finance, and environmental economics, examining how environmental risks impact financial decision-making and socioeconomic outcomes.
 
 My current project, "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act," examines how provisional insurance affects household credit and mortgage outcomes while addressing implications for insurance market dynamics.
 
