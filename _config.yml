@@ -11,7 +11,7 @@ locale: "en-US"
 title: "Jehoon Chung"
 title_separator: "-"
 name: &name "Jehoon Chung"
-description: &description "Graduate Student at University of Illinois Urbana-Champaign"
+description: &description "Finance PhD Student at Kelley"
 url: https://jehoonchung.github.io
 baseurl: ""
 repository: "JehoonChung/jehoonchung.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "jehoonpic.jpg"
   name             : "Jehoon Chung"
   pronouns         : #"he/him"  
-  bio              : "Finance Graduate Student at UIUC"
-  location         : "Champaign, IL, USA"
-  employer         : #"University of Illinois Urbana-Champaign"
+  bio              : "Finance PhD Student at Kelley School of Business"
+  location         : "Bloomington, IN, USA"
+  employer         : #"Indiana University Bloomington"
   uri              : # URL
   email            : "jehoonc2@illinois.edu" 
 
