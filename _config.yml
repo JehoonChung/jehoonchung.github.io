@@ -246,6 +246,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      type: teaching  # Target teaching collection
+    values:
+      show_date: false  # Force-disable dates
+      share: false      # Force-disable sharing
+      author_profile: true
   # _publications
   - scope:
       path: ""
