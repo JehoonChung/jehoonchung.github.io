@@ -4,14 +4,12 @@ author_profile: true
 title: "Teaching"
 collection: teaching
 permalink: /teaching/
-show_date: false
 ---
 
 ## Teaching Assistant  
-**Korea University**
-*2021-2022*  
+**Korea University** 
 
-- Seminar in Finance (BUS736)
-- Financial Management (BUSS207)
-- Corporate Finance (BUSS384) 
+*2021-2022* Seminar in Finance (BUS736), 
+*Fall 2021, 2022* Financial Management (BUSS207) 
+*Fall 2021, 2022* Corporate Finance (BUSS384)
 
