@@ -4,13 +4,16 @@ author_profile: true
 title: "Teaching"
 collection: teaching
 permalink: /teaching/
+date: 2022-01-01
 ---
 
-## Korea University Business School  
-**Teaching Assistant** for Prof. Sunwoo Hwang  
-*2022-2023*  
+## Teaching Assistant  
+**Korea University**
+*2021-2022*  
+Graduate
+- Seminar in Finance (BUS736)
 
-Courses:
+Undergraduate
 - Financial Management (BUSS207)
 - Corporate Finance (BUSS384) 
-- Seminar in Finance (BUS736)
+
