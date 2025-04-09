@@ -239,14 +239,6 @@ defaults:
       comments: true
       share: true
       related: true
-  - scope:
-      path: "_teaching"
-      type: documents
-    values:
-      layout: single
-      show_date: false
-      date: ""
-      share: false
   # _pages
   - scope:
       path: ""
