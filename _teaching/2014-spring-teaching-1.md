@@ -9,7 +9,7 @@ permalink: /teaching/
 ## Teaching Assistant  
 **Korea University** 
 
-- Seminar in Finance (BUS736), *2021-2022* 
-- Financial Management (BUSS207), *Fall 2021, 2022* 
-- Corporate Finance (BUSS384), *Fall 2021, 2022*
+- Seminar in Finance (M.S.), *2021-2022* 
+- Financial Management (B.B.A.), *Fall 2021, 2022* 
+- Corporate Finance (B.B.A.), *Fall 2021, 2022*
 
