@@ -18,4 +18,4 @@ We examine how provisional insurance influences households’ coverage decisions
 
 I identify the effect of heightened environmental risks on corporate divestitures and the implications of these decisions on firm value and local sustainability.
 
-For more details, please refer to the draft links at my CV or reach out at [chunje@iu.edu](mailto:chunje@iu.edu).
+For details, please refer to the draft links on my CV.
