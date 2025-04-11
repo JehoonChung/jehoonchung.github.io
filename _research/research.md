@@ -6,7 +6,7 @@ collection: research
 permalink: /research/
 ---
 
-## Work in Progress
+## Working Papers
 
 ### Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act 
 *with Rustom Irani*
