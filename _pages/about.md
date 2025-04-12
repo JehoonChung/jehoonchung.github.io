@@ -7,8 +7,10 @@ redirect_from:
 ---
 
 
-Welcome! I am a second-year Finance Ph.D. student at the Kelley School of Business, Indiana University Bloomington. My research interests include corporate, household, and climate finance, with a focus on how financial decisions and policies related to environmental risks affect socioeconomic outcomes. 
+Welcome! I am a second-year Finance Ph.D. student at the Kelley School of Business, Indiana University Bloomington. My research interests include corporate finance, household finance, and climate finance, with a focus on how environmentally driven financial decision-making affects socioeconomic outcomes.
 
-Before joining Kelley, I earned a B.A. and M.S. in Business Administration from Korea University and an M.S. in Finance from the University of Illinois Urbana-Champaign.
+Before joining Kelley, I earned a B.A. and M.S. in Business Administration from Korea University, as well as an M.S. in Finance from the University of Illinois Urbana-Champaign.
 
-You can find my CV [here](/files/CV_JehoonChung.pdf) and contact me at <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>.
+Contact: <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>
+
+You can find my CV [here](/files/CV_JehoonChung.pdf).
