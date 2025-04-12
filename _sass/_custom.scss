@@ -29,7 +29,7 @@
     }
   }
 
-  /* New: Name & Description Centering */
+  /* Name & Description Centering */
   .author__content {
     display: flex !important;
     flex-direction: column !important;
@@ -47,6 +47,21 @@
     
     .author__name {
       margin-bottom: 0.5rem !important;
+    }
+  }
+
+  /* New: Follow Button Centering (added below your existing code) */
+  .author__urls-wrapper {
+    text-align: center !important;
+    
+    .btn--inverse {
+      display: inline-block !important;
+      margin: 0 auto !important;
+      float: none !important;
+    }
+    
+    .social-icons {
+      justify-content: center !important;
     }
   }
 }
