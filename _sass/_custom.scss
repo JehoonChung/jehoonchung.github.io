@@ -66,19 +66,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .author__avatar img {
-    width: 180px !important;
-    height: 180px !important;
-    margin-left: -7px !important; /* Slightly less left adjustment on mobile */
+  .author {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
   
-  .author__content {
-    .author__name {
-      font-size: 1.8rem !important;
-    }
+  .author__avatar {
+    grid-column: 1;
+    position: relative;
+    left: -3px;
     
-    .author__bio {
-      font-size: 1.1rem !important;
+    img {
+      width: 180px;
+      height: 180px;
     }
   }
 }
