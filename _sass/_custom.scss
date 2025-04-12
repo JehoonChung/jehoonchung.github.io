@@ -1,51 +1,55 @@
-/* Author Profile Font and Mobile Centering */
-.author__name,
-.author__bio {
-  font-family: 'PT Serif', serif !important;
+/* ==========================================================================
+   Author Profile Layout Fixes
+   ========================================================================== */
+
+/* Desktop layout */
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem; /* Adds consistent spacing between elements */
 }
 
-/* Mobile centering */
+.author__avatar {
+  margin: 0 auto;
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f2f2f2;
+    display: block; /* Removes extra space below image */
+  }
+}
+
+.author__content {
+  width: 100%;
+  .author__name {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+  }
+  .author__bio {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Mobile adjustments */
 @media screen and (max-width: 768px) {
-  .author {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .author__avatar img {
+    width: 180px;
+    height: 180px;
   }
-
-  .author__avatar {
-    float: none;
-    margin: 0 auto 1.5rem;
-    
-    img {
-      width: 180px !important;
-      height: 180px !important;
-      margin: 0 auto;
-      display: block;
-    }
-  }
-
+  
   .author__content {
-    float: none;
-    width: 100%;
-    
     .author__name {
-      font-size: 1.8rem !important;
-      font-weight: 700;
+      font-size: 1.8rem;
     }
-    
     .author__bio {
-      font-size: 1.1rem;
-      max-width: 80%;
-      margin: 0 auto 1.5rem;
-    }
-  }
-
-  .author__urls-wrapper {
-    text-align: center;
-    
-    .social-icons {
-      justify-content: center;
+      font-size: 1rem;
     }
   }
 }
