@@ -7,10 +7,6 @@ redirect_from:
 ---
 
 
-I am a second-year Finance PhD student at the Kelley School of Business, Indiana University. My research focuses on the intersection of corporate finance, household finance, and environmental economics, examining how environmental risks impact financial decision-making and socioeconomic outcomes.
+Welcome! I am a second-year Finance Ph.D. student at the Kelley School of Business, Indiana University Bloomington. My research interests include corporate finance, household finance, and climate finance, with a focus on how financial decision-making associated with environmental risks affects socioeconomic outcomes. Prior to joining Kelley, I earned a B.A. and M.S. in Business Administration from Korea University as well as an M.S. in Finance from the University of Illinois Urbana-Champaign.
 
-My current project, "Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act," examines how provisional insurance affects household credit and mortgage outcomes while addressing implications for insurance market dynamics.
-
-Previously, I wrote my master's thesis at Korea University, "The Real Effects of Green Corporate Restructuring," which investigated how heightened environmental risks drive corporate divestitures and the implications of these decisions on firm value and local sustainability.
-
-Here is the link to my [CV](/files/CV_JehoonChung.pdf).
+You can find my CV [here](/files/CV_JehoonChung.pdf).
