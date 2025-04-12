@@ -1,65 +1,51 @@
-/* ==========================================================================
-   Custom styles
-   ========================================================================== */
+/* Author Profile Font and Mobile Centering */
+.author__name,
+.author__bio {
+  font-family: 'PT Serif', serif !important;
+}
 
-/* Mobile author profile */
+/* Mobile centering */
 @media screen and (max-width: 768px) {
-  .author__avatar {
-    display: block;
-    margin: 0 auto 2rem;
+  .author {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .author__avatar {
     float: none;
+    margin: 0 auto 1.5rem;
     
     img {
-      width: 200px !important;
-      height: 200px !important;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 5px solid #f2f2f2;
+      width: 180px !important;
+      height: 180px !important;
+      margin: 0 auto;
+      display: block;
     }
   }
-  
+
   .author__content {
-    text-align: center;
+    float: none;
     width: 100%;
     
     .author__name {
-      font-size: 2.2rem !important;
-      margin-bottom: 0.5rem;
-      color: #2a2a2a;
+      font-size: 1.8rem !important;
+      font-weight: 700;
     }
     
     .author__bio {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       max-width: 80%;
-      margin: 0 auto 2rem;
+      margin: 0 auto 1.5rem;
     }
   }
-  
+
   .author__urls-wrapper {
     text-align: center;
-    
-    .btn--inverse {
-      display: none;
-    }
     
     .social-icons {
       justify-content: center;
     }
-  }
-}
-
-/* Remove welcome text */
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead {
-  display: none !important;
-}
-
-/* Optional: Add some animation */
-.author__avatar img {
-  transition: transform 0.3s ease;
-  
-  &:hover {
-    transform: scale(1.05);
   }
 }
