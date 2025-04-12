@@ -9,15 +9,20 @@
    ========================================================================== */
 
 @media screen and (max-width: 768px) {
+  .author {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
   .author__avatar {
+    grid-column: 1;
     position: relative;
-    left: -3px; /* Precise adjustment */
-    transform: translateX(-3px); /* Additional fine control */
+    left: -3px;
     
     img {
       width: 180px;
       height: 180px;
-      margin-left: 0; /* Reset any previous margins */
     }
   }
 }
