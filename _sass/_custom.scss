@@ -1,28 +1,38 @@
 /* ==========================================================================
-   Author Profile Layout Fixes (Left-Adjusted Photo)
-   ========================================================================== */
-
-
-
-/* ==========================================================================
-   Perfect Mobile Author Centering
+   Guaranteed Mobile Centering Fix
    ========================================================================== */
 
 @media screen and (max-width: 768px) {
-  .author {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  
+  /* Debug container (temporary - remove after fixing) */
   .author__avatar {
-    grid-column: 1;
-    position: relative;
-    left: -3px;
+    background-color: rgba(255,0,0,0.1); /* Visual guide */
+    outline: 1px dashed blue; /* Visual guide */
+  }
+
+  /* Complete reset */
+  .author__avatar,
+  .author__avatar img {
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    display: block !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+  }
+
+  /* Precise centering */
+  .author__avatar {
+    width: 180px !important; /* Match image size */
+    margin: 0 auto 2rem !important;
     
     img {
-      width: 180px;
-      height: 180px;
+      width: 100% !important;
+      height: 180px !important;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #f2f2f2;
     }
   }
 }
