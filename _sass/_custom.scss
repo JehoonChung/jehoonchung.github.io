@@ -1,15 +1,9 @@
 /* ==========================================================================
-   Guaranteed Mobile Centering Fix
+   Mobile Profile Perfect Centering
    ========================================================================== */
 
 @media screen and (max-width: 768px) {
-  /* Debug container (temporary - remove after fixing) */
-  .author__avatar {
-    background-color: rgba(255,0,0,0.1); /* Visual guide */
-    outline: 1px dashed blue; /* Visual guide */
-  }
-
-  /* Complete reset */
+  /* Avatar Centering (your working solution) */
   .author__avatar,
   .author__avatar img {
     margin: 0 !important;
@@ -22,9 +16,8 @@
     transform: none !important;
   }
 
-  /* Precise centering */
   .author__avatar {
-    width: 180px !important; /* Match image size */
+    width: 180px !important;
     margin: 0 auto 2rem !important;
     
     img {
@@ -34,5 +27,31 @@
       object-fit: cover;
       border: 5px solid #f2f2f2;
     }
+  }
+
+  /* New: Name & Description Centering */
+  .author__content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    
+    .author__name,
+    .author__bio {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+    
+    .author__name {
+      margin-bottom: 0.5rem !important;
+    }
+  }
+
+  /* Optional: Hide Follow button */
+  .author__urls-wrapper .btn--inverse {
+    display: none !important;
   }
 }
