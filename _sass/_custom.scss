@@ -1,67 +1,58 @@
 /* ==========================================================================
-   Author Profile Layout Fixes
+   Final Author Profile Fixes
    ========================================================================== */
 
-/* Reset default author styles */
+/* Complete reset of author profile */
 .author {
-  display: block !important;
-  text-align: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
 }
 
-/* Avatar styling */
+/* Avatar styling - now perfectly centered and square */
 .author__avatar {
   display: block !important;
   margin: 0 auto 2rem !important;
-  float: none !important;
-  text-align: center;
+  padding: 0 !important;
+  text-align: center !important;
   
   img {
     width: 200px !important;
     height: 200px !important;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #f2f2f2;
-    display: block;
-    margin: 0 auto;
+    border-radius: 0 !important; /* Changed from 50% to make square */
+    object-fit: cover !important;
+    border: none !important; /* Removed circular border */
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional subtle shadow */
   }
 }
 
-/* Content styling - ensures name and description are below image */
+/* Content styling - keeps your perfect name/description */
 .author__content {
   display: block !important;
   width: 100% !important;
-  float: none !important;
-  margin-top: 1.5rem;
-  text-align: center;
+  margin: 0 auto !important;
+  padding: 0 !important;
   
   .author__name {
     font-family: 'PT Serif', serif !important;
     font-weight: 700 !important;
     font-size: 2rem !important;
     margin-bottom: 0.5rem !important;
-    color: #2a2a2a;
-    line-height: 1.2;
+    color: #2a2a2a !important;
+    line-height: 1.2 !important;
   }
   
   .author__bio {
     font-family: 'PT Serif', serif !important;
     font-size: 1.2rem !important;
-    line-height: 1.5;
+    line-height: 1.5 !important;
     margin: 0 auto 2rem !important;
-    max-width: 80%;
-  }
-}
-
-/* Social links styling */
-.author__urls-wrapper {
-  text-align: center !important;
-  
-  .btn--inverse {
-    display: none !important;
-  }
-  
-  .social-icons {
-    justify-content: center !important;
+    max-width: 80% !important;
   }
 }
 
@@ -70,15 +61,5 @@
   .author__avatar img {
     width: 180px !important;
     height: 180px !important;
-  }
-  
-  .author__content {
-    .author__name {
-      font-size: 1.8rem !important;
-    }
-    
-    .author__bio {
-      font-size: 1.1rem !important;
-    }
   }
 }
