@@ -13,7 +13,7 @@ permalink: /research/
 We examine how provisional insurance influences households’ coverage decisions and its effect on mortgage and credit outcomes.
 
 ### The Real Effects of Green Corporate Restructuring
-*M.S. Thesis*
+*Master Thesis*
 
 I identify the effect of heightened environmental risks on corporate divestitures and the implications of these decisions on firm value and local sustainability.
 
