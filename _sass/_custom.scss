@@ -2,54 +2,83 @@
    Author Profile Layout Fixes
    ========================================================================== */
 
-/* Desktop layout */
+/* Reset default author styles */
 .author {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block !important;
   text-align: center;
-  gap: 1.5rem; /* Adds consistent spacing between elements */
 }
 
+/* Avatar styling */
 .author__avatar {
-  margin: 0 auto;
+  display: block !important;
+  margin: 0 auto 2rem !important;
+  float: none !important;
+  text-align: center;
+  
   img {
-    width: 200px;
-    height: 200px;
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #f2f2f2;
-    display: block; /* Removes extra space below image */
+    display: block;
+    margin: 0 auto;
   }
 }
 
+/* Content styling - ensures name and description are below image */
 .author__content {
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
+  float: none !important;
+  margin-top: 1.5rem;
+  text-align: center;
+  
   .author__name {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
+    font-family: 'PT Serif', serif !important;
+    font-weight: 700 !important;
+    font-size: 2rem !important;
+    margin-bottom: 0.5rem !important;
+    color: #2a2a2a;
     line-height: 1.2;
   }
+  
   .author__bio {
-    font-size: 1.1rem;
+    font-family: 'PT Serif', serif !important;
+    font-size: 1.2rem !important;
     line-height: 1.5;
-    margin-bottom: 1.5rem;
+    margin: 0 auto 2rem !important;
+    max-width: 80%;
+  }
+}
+
+/* Social links styling */
+.author__urls-wrapper {
+  text-align: center !important;
+  
+  .btn--inverse {
+    display: none !important;
+  }
+  
+  .social-icons {
+    justify-content: center !important;
   }
 }
 
 /* Mobile adjustments */
 @media screen and (max-width: 768px) {
   .author__avatar img {
-    width: 180px;
-    height: 180px;
+    width: 180px !important;
+    height: 180px !important;
   }
   
   .author__content {
     .author__name {
-      font-size: 1.8rem;
+      font-size: 1.8rem !important;
     }
+    
     .author__bio {
-      font-size: 1rem;
+      font-size: 1.1rem !important;
     }
   }
 }
