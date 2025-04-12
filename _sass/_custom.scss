@@ -1,9 +1,21 @@
 /* ==========================================================================
-   Mobile Profile Perfect Centering
+   Mobile Profile Centering with Follow Button Diagnostics
    ========================================================================== */
 
 @media screen and (max-width: 768px) {
-  /* Avatar Centering (your working solution) */
+  /* Debug container for Follow button */
+  .author__urls-wrapper {
+    background-color: rgba(0, 0, 255, 0.1) !important; /* Light blue background */
+    outline: 2px dashed blue !important; /* Blue dashed border */
+    
+    /* Debug button container */
+    .btn--inverse {
+      background-color: rgba(255, 0, 0, 0.2) !important; /* Light red fill */
+      outline: 1px solid red !important; /* Red border */
+    }
+  }
+
+  /* Your existing perfect avatar and text centering */
   .author__avatar,
   .author__avatar img {
     margin: 0 !important;
@@ -29,7 +41,6 @@
     }
   }
 
-  /* Name & Description Centering */
   .author__content {
     display: flex !important;
     flex-direction: column !important;
@@ -50,7 +61,7 @@
     }
   }
 
-  /* New: Follow Button on Its Own Centered Line */
+  /* Follow Button Centering Attempt */
   .author__urls-wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -58,12 +69,13 @@
     text-align: center !important;
     width: 100% !important;
     margin-top: 1rem !important;
+    padding: 0 !important;
     
     .btn--inverse {
-      display: block !important; /* Changed to block */
-      margin: 0 auto 1rem !important; /* Added bottom margin */
-      width: auto !important; /* Natural button width */
-      order: -1 !important; /* Moves button above social icons */
+      display: block !important;
+      margin: 0 auto 1rem !important;
+      width: auto !important;
+      order: -1 !important;
     }
     
     .social-icons {
