@@ -1,7 +1,6 @@
 ---
 layout: single
-author_profile: false
-classes: wide
+author_profile: true
 collection: research
 permalink: /research/
 ---
