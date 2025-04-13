@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: research
 author_profile: true
 collection: research
 permalink: /research/
