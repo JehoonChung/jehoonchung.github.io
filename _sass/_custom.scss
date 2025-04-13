@@ -10,17 +10,6 @@
 }
 
 @media screen and (max-width: 768px) {
-   /* Only hide for research/teaching collection items */
-  .research .author,
-  .teaching .author {
-    display: none !important;
-  }
-  
-  /* Corresponding space removal */
-  .research .page__inner-wrap,
-  .teaching .page__inner-wrap {
-    padding-left: 0 !important;
-  }
   /* Your existing perfect avatar and text centering (unchanged) */
   .author__avatar,
   .author__avatar img {
@@ -95,5 +84,27 @@
       justify-content: center !important;
       margin-top: 0 !important;
     }
+  }
+}
+/* ==========================================================================
+   Mobile-Only Author Profile Hiding
+   ========================================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Hide when mobile_hide_author is true */
+  .mobile_hide_author-true .author {
+    display: none !important;
+  }
+
+  /* Remove leftover space */
+  .mobile_hide_author-true .page__inner-wrap {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  /* Expand content */
+  .mobile_hide_author-true .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
