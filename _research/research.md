@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true
+mobile_hide_author: true
 collection: research
 permalink: /research/
 ---
