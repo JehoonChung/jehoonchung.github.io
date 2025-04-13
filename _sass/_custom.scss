@@ -1,7 +1,27 @@
 /* ==========================================================================
    Mobile Profile Centering with Follow Button Diagnostics + Font Styling
    ========================================================================== */
-
+/* First, ensure collections have a specific class */
+body.research,
+body.teaching {
+  @media screen and (max-width: 768px) {
+    /* Completely hide author profile */
+    .author {
+      display: none !important;
+    }
+    
+    /* Remove the leftover margin space */
+    .page__inner-wrap {
+      padding-left: 0 !important;
+    }
+    
+    /* Adjust content to fill the space */
+    .page__content {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+}
 /* Global PT Serif font application */
 .author__name,
 .author__bio,
@@ -84,16 +104,5 @@
       justify-content: center !important;
       margin-top: 0 !important;
     }
-  }
-   /* Target research/teaching pages specifically */
-  [class*="research"] .author,
-  [class*="teaching"] .author {
-    display: none !important;
-  }
-  
-  /* Adjust layout accordingly */
-  [class*="research"] .page__inner-wrap,
-  [class*="teaching"] .page__inner-wrap {
-    padding-left: 0 !important;
   }
 }
