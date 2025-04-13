@@ -8,11 +8,7 @@
 .author__urls-wrapper .btn--inverse {
   font-family: 'PT Serif', serif !important;
 }
-/* Remove author profile space for specific layouts */
-.layout--single .author_profile-false .page__inner-wrap {
-  padding-left: 0 !important;
-  max-width: none !important;
-}
+
 @media screen and (max-width: 768px) {
   /* Your existing perfect avatar and text centering (unchanged) */
   .author__avatar,
@@ -88,5 +84,16 @@
       justify-content: center !important;
       margin-top: 0 !important;
     }
+  }
+   /* Target research/teaching pages specifically */
+  [class*="research"] .author,
+  [class*="teaching"] .author {
+    display: none !important;
+  }
+  
+  /* Adjust layout accordingly */
+  [class*="research"] .page__inner-wrap,
+  [class*="teaching"] .page__inner-wrap {
+    padding-left: 0 !important;
   }
 }
