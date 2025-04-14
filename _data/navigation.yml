@@ -7,6 +7,8 @@
 main:
   - title: "Home"       # This will replace "Jehoon Chung"
     url: /             # Links to root/homepage
+  - title: "CV"
+    url: /cv/  # Will redirect to PDF
   - title: "Research"
     url: /research/    
   - title: "Teaching"
