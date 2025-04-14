@@ -11,7 +11,7 @@ locale: "en-US"
 title: "Jehoon Chung"
 title_separator: "-"
 name: &name "Jehoon Chung"
-description: &description "PhD Student in Finance at Kelley"
+description: &description "Ph.D. Student in Finance at Kelley"
 url: https://jehoonchung.github.io
 baseurl: ""
 repository: "JehoonChung/jehoonchung.github.io"
