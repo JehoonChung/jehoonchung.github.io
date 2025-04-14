@@ -8,7 +8,11 @@
 .author__urls-wrapper .btn--inverse {
   font-family: 'PT Serif', serif !important;
 }
-
+/* Navigation tabs */
+.greedy-nav a,
+.nav__list a {
+  font-family: 'PT Serif', serif !important;
+}
 @media screen and (max-width: 768px) {
   /* Your existing perfect avatar and text centering (unchanged) */
   .author__avatar,
