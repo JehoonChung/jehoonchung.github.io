@@ -6,10 +6,8 @@ collection: teaching
 permalink: /teaching/
 ---
 
-## Teaching Assistant  
-**Korea University** 
-
-- Seminar in Finance (Graduate), *2021-2022* 
-- Financial Management (Undergraduate) *Fall 2021, 2022* 
-- Corporate Finance (Undergraduate), *Fall 2021, 2022*
+## Korea University
+- Teaching Assistant, Seminar in Finance (Graduate), *2021-2022* 
+- Teaching Assistant, Financial Management (Undergraduate) *Fall 2021, 2022* 
+- Teaching Assistant, Corporate Finance (Undergraduate), *Fall 2021, 2022*
 
