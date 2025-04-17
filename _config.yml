@@ -24,7 +24,9 @@ author:
   avatar           : "jehoonpic.jpg"
   name             : "Jehoon Chung"
   pronouns         : #"he/him"  
-  bio              : "Finance PhD Student at Kelley"
+  bio              : |
+    PhD Student in Finance
+    Robert J. Waller Doctoral Fellow
   location         : "Bloomington, IN, USA"
   employer         : #"Indiana University Bloomington"
   uri              : # URL
