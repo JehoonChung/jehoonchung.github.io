@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Working Papers
 
-### Guaranteeing Home Insurance: Evidence from California’s Wildfire Safety and Recovery Act 
+### Guaranteeing Home Insurance: Evidence from California’s Wildfire Moratorium
 *with Rustom Irani*
 
 We examine how provisional insurance influences households’ coverage decisions and its effect on mortgage and credit outcomes.
