@@ -22,3 +22,14 @@
 
 <!-- Add this line to hide the page title -->
 <style>.page__title { display: none !important; }</style>
+
+{% if jekyll.environment == "production" %}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RSLJE8KNS7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RSLJE8KNS7');
+</script>
+{% endif %}
