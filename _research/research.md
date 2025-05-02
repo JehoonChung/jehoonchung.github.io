@@ -9,7 +9,7 @@ permalink: /research/
 ## Working Papers
 
 ### Guaranteeing Home Insurance: Evidence from California’s Wildfire Moratorium
-*with Rustom Irani*
+*with Rustom Irani and Ralf Meisenzahl*
 
 We examine how credit relief from temporarily guaranteed home insurance propogate through household balance sheets.
 
