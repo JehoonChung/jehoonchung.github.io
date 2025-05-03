@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-Welcome! I am a second-year Finance PhD student at the Kelley School of Business, Indiana University.
+Welcome! I am a second-year Finance PhD student at the Kelley School of Business, Indiana University Bloomington.
 
 My primary research focus is on corporate, household, and climate finance. I am currently interested in the transmission of environmental risks through financial markets under regulatory frictions.
 
