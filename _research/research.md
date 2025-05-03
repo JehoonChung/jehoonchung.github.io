@@ -5,7 +5,7 @@ mobile_hide_author: true
 collection: research
 permalink: /research/
 ---
-I position my research in structured reduced-form empirical work that delivers policy-relevant insights. I am paricularly interested in exploring real-world questions through the lens of economic theory. To broaden the impact of my work, I am pursuing training in structural modeling to quantify welfare implications and provide fully grounded policy recommendations.
+I position my research within the tradition of structured reduced-form empirical work. Motivated by a strong interest in exploring real-world questions through the lens of economic theory, I value research that generates meaningful policy insights. To extend the reach of my work, I am pursuing training in structural modeling to quantify welfare implications and deliver fully grounded policy recommendations.
 
 
 
