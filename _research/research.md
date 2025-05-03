@@ -5,7 +5,7 @@ mobile_hide_author: true
 collection: research
 permalink: /research/
 ---
-I position my research in structured reduced-form empirical work, combining rich identification with economic theory to deliver policy-relevant insights. I belive my comparative advantage is identifying real-world questions and framing them theoretically. To extend the reach of my research, I am pursuing training in structural estimation to quantify welfare implications and provide fully grounded policy recommendations.
+I position my research in structured reduced-form empirical work that delivers policy-relevant insights. I am paricularly interested in exploring real-world questions through the lens of economic theory. To broaden the impact of my work, I am pursuing training in structural modeling to quantify welfare implications and provide fully grounded policy recommendations.
 
 
 
