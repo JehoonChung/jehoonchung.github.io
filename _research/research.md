@@ -5,8 +5,6 @@ mobile_hide_author: true
 collection: research
 permalink: /research/
 ---
-I position my research in reduced-form empirical work that address policy-relevant questions. I am particularly interested in settings where institutional frictions and behavioral responses shape financial outcomes. To extend the scope of my work, I am working to integrate structural estimation to capture underlying mechanisms and quantify welfare implications.
-
 
 ## Working Papers
 
