@@ -118,16 +118,3 @@
     max-width: 100% !important;
   }
 }
-
-/* Ensure all profile avatars are perfectly circular */
-.author__avatar,
-.author__avatar img {
-  width: 180px !important;        /* set same width */
-  height: 180px !important;       /* set same height */
-  aspect-ratio: 1 / 1 !important; /* enforces square shape across browsers */
-  border-radius: 50% !important;  /* makes it round */
-  object-fit: cover !important;   /* prevents distortion */
-  display: block !important;
-  margin: 0 auto !important;
-  float: none !important;
-}
