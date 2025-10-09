@@ -10,7 +10,7 @@
 locale: "en-US"
 title: "Jehoon Chung"
 title_separator: "-"
-name: &name "Jehoon Chung (정재훈)"
+name: &name "Jehoon Chung"
 description: &description "Ph.D. Student in Finance at Kelley"
 url: https://jehoonchung.github.io
 baseurl: ""
@@ -22,7 +22,7 @@ repository: "JehoonChung/jehoonchung.github.io"
 author:
   # Biographic information
   avatar           : "jehoonpic.jpg"
-  name             : "Jehoon Chung"
+  name             : "Jehoon Chung (정재훈)"
   pronouns         : #"he/him"  
   bio              : "Finance PhD Student at IU Kelley"
   location         : "Bloomington, IN, USA"
