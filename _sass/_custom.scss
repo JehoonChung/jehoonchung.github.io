@@ -96,48 +96,64 @@
     align-items: center !important;
   }
 }
-/* ==========================================================================
-   Mobile-Only Author Profile Hiding
-   ========================================================================== */
-
+/* ============================
+   FINAL: mobile = icons only, no Follow button
+   ============================ */
 @media screen and (max-width: 768px) {
-  /* Hide when mobile_hide_author is true */
-  .mobile_hide_author-true .author {
+  /* 1) Hide the Follow button (beat any earlier rule) */
+  .author__urls-wrapper .btn--inverse,
+  .author__urls-wrapper button.btn--inverse,
+  .author__urls-wrapper button.btn {
     display: none !important;
   }
 
-  /* Remove leftover space */
-  .mobile_hide_author-true .page__inner-wrap {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
+  /* 2) Always show the icons list (no popover) */
+  .author__urls-wrapper ul.author__urls.social-icons,
+  .author__urls-wrapper .author__urls,
+  .author__urls-wrapper .author__urls.is--hidden,
+  .author__urls-wrapper .author__urls[hidden] {
+    display: flex !important;
+    position: static !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    margin: 0.5rem 0 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    text-align: center !important;
   }
 
-  /* Expand content */
-  .mobile_hide_author-true .page__content {
-    width: 100% !important;
-    max-width: 100% !important;
+  /* 3) Remove the speech-bubble arrow */
+  .author__urls-wrapper ul.author__urls.social-icons::before {
+    display: none !important;
+    content: none !important;
   }
-}
-/* Mobile: icons only (no text labels) */
-@media screen and (max-width: 768px) {
-  /* Hide the label spans next to the icons */
+
+  /* 4) Icons only (hide labels) */
   .author__urls-wrapper .author__urls .label,
   .author__urls-wrapper .author__urls li a span.label {
     display: none !important;
   }
 
-  /* Make each icon a comfy tap target */
+  /* 5) Comfy tap targets + icon sizing */
   .author__urls-wrapper .author__urls a {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     width: 2rem !important;
     height: 2rem !important;
-    padding: 0 !important;
     text-decoration: none !important;
+    padding: 0 !important;
   }
-
-  /* Slightly larger icon size */
   .author__urls-wrapper .author__urls i {
     font-size: 1.2rem !important;
     line-height: 1 !important;
