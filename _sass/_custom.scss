@@ -96,67 +96,81 @@
     align-items: center !important;
   }
 }
-/* ============================
-   FINAL: mobile = icons only, no Follow button
-   ============================ */
+/* ============================================
+   MOBILE: Replace Follow with icon-only row
+   (kill buttons, labels, and popover)
+   ============================================ */
 @media screen and (max-width: 768px) {
-  /* 1) Hide the Follow button (beat any earlier rule) */
+  /* Hide the Follow button itself */
   .author__urls-wrapper .btn--inverse,
-  .author__urls-wrapper button.btn--inverse,
-  .author__urls-wrapper button.btn {
+  .author__urls-wrapper button.btn,
+  .author__urls-wrapper button.btn--inverse {
     display: none !important;
   }
 
-  /* 2) Always show the icons list (no popover) */
-  .author__urls-wrapper ul.author__urls.social-icons,
-  .author__urls-wrapper .author__urls,
-  .author__urls-wrapper .author__urls.is--hidden,
-  .author__urls-wrapper .author__urls[hidden] {
+  /* Force the list to be visible inline (no bubble) */
+  .author__urls-wrapper ul.author__urls,
+  .author__urls-wrapper ul.author__urls.social-icons {
     display: flex !important;
     position: static !important;
     opacity: 1 !important;
     visibility: visible !important;
     transform: none !important;
-
     justify-content: center !important;
     align-items: center !important;
     flex-wrap: wrap !important;
     gap: 0.75rem !important;
-
     background: transparent !important;
-    box-shadow: none !important;
     border: 0 !important;
+    box-shadow: none !important;
     margin: 0.5rem 0 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    text-align: center !important;
   }
-
-  /* 3) Remove the speech-bubble arrow */
   .author__urls-wrapper ul.author__urls.social-icons::before {
     display: none !important;
     content: none !important;
   }
 
-  /* 4) Icons only (hide labels) */
-  .author__urls-wrapper .author__urls .label,
-  .author__urls-wrapper .author__urls li a span.label {
-    display: none !important;
-  }
+  /* OVERRIDE THEME BUTTON STYLES ON THESE LINKS */
+  .author__urls-wrapper .author__urls a,
+  .author__urls-wrapper .author__urls a.btn,
+  .author__urls-wrapper .author__urls a.btn--inverse {
+    /* strip button look */
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    color: inherit !important;
 
-  /* 5) Comfy tap targets + icon sizing */
-  .author__urls-wrapper .author__urls a {
+    /* make them icon-only, centered, tappable */
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     width: 2rem !important;
     height: 2rem !important;
     text-decoration: none !important;
-    padding: 0 !important;
   }
+
+  /* Hide any text next to icons */
+  .author__urls-wrapper .author__urls .label,
+  .author__urls-wrapper .author__urls .hidden,
+  .author__urls-wrapper .author__urls span.label,
+  .author__urls-wrapper .author__urls span.hidden {
+    display: none !important;
+  }
+
+  /* Icon sizing (Font Awesome <i> or inline SVG) */
   .author__urls-wrapper .author__urls i {
     font-size: 1.2rem !important;
     line-height: 1 !important;
+  }
+  .author__urls-wrapper .author__urls svg.icon {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    display: block !important;
   }
 }
 
