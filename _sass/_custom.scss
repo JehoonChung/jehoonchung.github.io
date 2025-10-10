@@ -132,3 +132,52 @@
   }
 }
 
+ /* Make the icon list horizontal (the UL itself is the "social-icons") */
+  .author__urls-wrapper ul.author__urls.social-icons {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+
+    /* remove any default vertical menu look */
+    width: auto !important;
+    background: #fff;           /* keep bubble background if you like */
+    padding: 0.4rem 0.6rem !important;
+    margin: 0 !important;
+    box-shadow: var(--mm-shadow, 0 6px 18px rgba(0,0,0,.1)); /* optional */
+    list-style: none !important;
+  }
+
+  /* Each item should not be full-width; kill column styling */
+  .author__urls-wrapper ul.author__urls.social-icons > li {
+    display: inline-flex !important;
+    width: auto !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Make each link an icon-sized tap target */
+  .author__urls-wrapper ul.author__urls.social-icons > li > a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+  }
+
+  /* Optional: hide label text to show icon-only on mobile */
+  .author__urls-wrapper ul.author__urls.social-icons > li > a .icon-pad-right + * {
+    display: none !important; /* hides text after the icon */
+  }
+
+  /* Icon size */
+  .author__urls-wrapper ul.author__urls.social-icons i {
+    font-size: 1.1rem !important;
+    line-height: 1 !important;
+  }
+}
