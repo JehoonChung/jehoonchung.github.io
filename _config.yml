@@ -29,6 +29,20 @@ author:
   employer         : #"Indiana University Bloomington"
   uri              : # URL
   email            : "chunje@iu.edu" 
+  # 👇 New: explicit, ordered icon links (including School Profile)
+  links:
+    - label: "School Profile"
+      icon: "fas fa-university"
+      url: "https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?username=jehoon-chung" # <-- put your real URL
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:chunje@iu.edu"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jehoonchung"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jehoonchung/"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
