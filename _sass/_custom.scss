@@ -118,62 +118,23 @@
     max-width: 100% !important;
   }
 }
-/* ============================
-   Mobile: replace Follow popover with inline icons
-   ============================ */
+/* Mobile: icons only (no text labels) */
 @media screen and (max-width: 768px) {
-  /* 1) Hide the Follow button */
-  .author__urls-wrapper .btn--inverse,
-  .author__urls-wrapper button.btn--inverse {
+  /* Hide the label spans next to the icons */
+  .author__urls-wrapper .author__urls .label,
+  .author__urls-wrapper .author__urls li a span.label {
     display: none !important;
   }
 
-  /* 2) Force the links list to be inline, centered, and not a popover */
-  .author__urls-wrapper .author__urls,
-  .author__urls-wrapper ul.author__urls.social-icons {
-    position: static !important;
-    float: none !important;
-    right: auto !important;
-    left: auto !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 0.75rem !important;
-
-    background: transparent !important;
-    box-shadow: none !important;
-    border: 0 !important;
-    padding: 0 !important;
-    margin: 0.5rem 0 0 !important;
-    list-style: none !important;
-    text-align: center !important;
-  }
-
-  /* Kill the little arrow bubble */
-  .author__urls-wrapper ul.author__urls.social-icons::before {
-    display: none !important;
-    content: none !important;
-  }
-
-  /* Tighter items + good tap targets */
-  .author__urls-wrapper .author__urls li { margin: 0 !important; }
+  /* Make each icon a comfy tap target */
   .author__urls-wrapper .author__urls a {
     display: inline-flex !important;
-    justify-content: center !important;
     align-items: center !important;
+    justify-content: center !important;
     width: 2rem !important;
     height: 2rem !important;
+    padding: 0 !important;
     text-decoration: none !important;
-  }
-
-  /* Icons only (hide text labels) */
-  .author__urls-wrapper .author__urls .label {
-    display: none !important;
   }
 
   /* Slightly larger icon size */
@@ -182,3 +143,4 @@
     line-height: 1 !important;
   }
 }
+
