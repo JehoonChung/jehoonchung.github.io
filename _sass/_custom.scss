@@ -114,3 +114,48 @@
     right: auto !important;
   }
 }
+
+/* ==========================================================================
+   Adjust Follow popover position and layout
+   ========================================================================== */
+@media screen and (max-width: 768px) {
+  /* Lower the speech bubble */
+  .author__urls-wrapper .author__urls {
+    top: 3.2rem !important; /* increase this to move it further down (default ~2rem) */
+  }
+
+  /* Center the little arrow correctly under the button */
+  .author__urls-wrapper .author__urls::before {
+    top: -0.75rem !important; /* tweak arrow vertical offset if needed */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  /* Arrange icons horizontally instead of stacked */
+  .author__urls-wrapper .author__urls ul,
+  .author__urls-wrapper .author__urls.social-icons {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important; /* spacing between icons */
+    margin: 0 !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+
+  /* Optional: make each icon a consistent size */
+  .author__urls-wrapper .author__urls li a {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+
+  /* Adjust icon size */
+  .author__urls-wrapper .author__urls i {
+    font-size: 1.1rem !important;
+  }
+}
+
