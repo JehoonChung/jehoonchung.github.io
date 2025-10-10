@@ -96,3 +96,21 @@
     align-items: center !important;
   }
 }
+/* ==========================================================================
+   Center the Follow popover bubble on mobile
+   ========================================================================== */
+@media screen and (max-width: 768px) {
+  /* Center the bubble */
+  .author__urls-wrapper .author__urls {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+  }
+
+  /* Optional: make the little arrow center too */
+  .author__urls-wrapper .author__urls::before {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+  }
+}
