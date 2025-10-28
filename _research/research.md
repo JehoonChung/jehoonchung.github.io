@@ -11,7 +11,7 @@ permalink: /research/
 ### [1] Guaranteeing Home Insurance: Evidence from California’s Wildfire Moratorium
 *with Rustom Irani and Ralf Meisenzahl*
 
-We examine how credit relief from temporary insurance protection propagates through household balance sheets and mortgage outcomes.
+We examine how credit relief from temporary insurance protection propagates through household balance sheets.
 
 ### [2] The Real Effects of Green Corporate Restructuring
 *Master Thesis*
