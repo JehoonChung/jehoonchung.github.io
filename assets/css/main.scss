@@ -63,5 +63,27 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .masthead,
+body.dark-mode .page__footer,
+body.dark-mode .sidebar {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode a {
+  color: #90caf9 !important;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 
 
