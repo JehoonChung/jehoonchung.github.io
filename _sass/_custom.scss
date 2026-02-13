@@ -131,3 +131,55 @@
     transform: translateX(-50%) !important;
   }
 }
+
+/* ==========================================================================
+   DARK MODE OVERRIDES (MUST BE LAST)
+   ========================================================================== */
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Main content area */
+body.dark-mode .page__content,
+body.dark-mode .page {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+  background-color: #1a1a1a !important;
+}
+
+/* Masthead (top nav) */
+body.dark-mode .masthead {
+  background-color: #1a1a1a !important;
+}
+
+/* Footer */
+body.dark-mode .page__footer {
+  background-color: #1a1a1a !important;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #90caf9 !important;
+}
+
+/* Follow button */
+body.dark-mode .btn--inverse {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+/* Toggle button styling */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: inherit;
+}
+
