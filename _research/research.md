@@ -6,16 +6,14 @@ collection: research
 permalink: /research/
 ---
 
-## Working Papers
+## Work in Progress
 
-### [1] Technological Change and the Information Content of Labor Force Restructuring
+### Technological Change and the Information Content of Labor Force Restructuring
 *Presented at Indiana University 2026*
 
 
-### [2] Guaranteeing Home Insurance
+### Guaranteeing Home Insurance
 *with Rustom Irani and Ralf Meisenzahl*
-
-We examine how credit relief from temporary insurance protection propagates through household balance sheets.
 
 ## Pre-PhD Work
 
