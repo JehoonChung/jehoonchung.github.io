@@ -7,10 +7,6 @@ redirect_from:
 ---
 
 
-Welcome! I am a Finance PhD student and Robert James Waller Doctoral Fellow at the Kelley School of Business, Indiana University.
+Welcome! I am a Finance PhD student and Robert James Waller Doctoral Fellow at the Kelley School of Business, Indiana University. My research focuses on corporate finance, with a particular emphasis on its intersection with labor, organizational economics, and technological innovation. I hold a Bachelor's in Business Administration and Financial Engineering from Korea University, as well as a Master’s in Finance from the University of Illinois Urbana-Champaign.
 
-My research interests are in empirical corporate finance, particularly in understanding how financial frictions influence firm behavior and how these effects propagate to real economic outcomes.
-
-Before joining Kelley, I earned a Bachelor's in Business Administration and Financial Engineering from Korea University, as well as a Master’s in Finance from the University of Illinois Urbana-Champaign.
-
-Always happy to chat about research, please reach out via <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>.
+Email: <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>.
