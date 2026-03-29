@@ -19,6 +19,4 @@ permalink: /research/
 
 ### The Real Effects of Green Corporate Restructuring
 
-I identify the effect of heightened environmental risks on corporate divestitures and the implications on firm value and local sustainability.
-
 For details, please refer to the draft links on my CV.
