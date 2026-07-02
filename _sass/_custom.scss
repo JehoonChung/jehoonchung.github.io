@@ -1,17 +1,44 @@
 /* ==========================================================================
    Mobile Profile Centering with Follow Button Diagnostics + Font Styling
    ========================================================================== */
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
 
 /* Global PT Serif font application */
 .author__name,
 .author__bio,
 .author__urls-wrapper .btn--inverse {
-  font-family: 'Lora', serif !important;
+  font-family: "Libertinus Serif", Georgia, serif !important;
 }
 /* Navigation tabs */
 .greedy-nav a,
 .nav__list a {
-  font-family: 'Lora', serif !important;
+  font-family: "Libertinus Serif", Georgia, serif !important;
 }
 @media screen and (max-width: 768px) {
   /* Your existing perfect avatar and text centering (unchanged) */
