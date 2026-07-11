@@ -5,9 +5,7 @@ title: "CV"
 permalink: /cv/
 ---
 
-You can download my CV here:
-
-**[Download CV (PDF)](/files/CV_JehoonChung.pdf)**
+You can download my CV **[here](/files/CV_JehoonChung.pdf)**.
 
 <iframe src="/files/CV_JehoonChung.pdf"
         width="100%"
