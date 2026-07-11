@@ -3,7 +3,14 @@ layout: single
 author_profile: false
 title: "CV"
 permalink: /cv/
-redirect_to: https://jehoonchung.github.io/files/CV_JehoonChung.pdf
-header:
-  nav: true  # Show in navigation
 ---
+
+You can download my CV here:
+
+**[Download CV (PDF)](/files/CV_JehoonChung.pdf)**
+
+<iframe src="/files/CV_JehoonChung.pdf"
+        width="100%"
+        height="900px"
+        style="border:none;">
+</iframe>
