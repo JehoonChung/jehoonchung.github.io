@@ -9,7 +9,7 @@ permalink: /research/
 ## Work in Progress
 
 ### Technological Change and the Information Content of Labor Force Restructuring
-*Presentations: AI in Finance Montréal (2026), Indiana University (2026)*
+*Presentations: Australasian Finance and Banking Conference (2026), AI in Finance Montréal (2026), Indiana University (2026)*
 
 
 ### Guaranteeing Home Insurance
