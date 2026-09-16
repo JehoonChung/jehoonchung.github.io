@@ -11,4 +11,4 @@ Welcome! I am a Finance PhD student and Robert James Waller Doctoral Fellow at t
 
 *Research Interests:* Corporate Finance · Labor and Finance · Financial Intermediation · Innovation
 
-*Contact:* <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>
+You can contact me at: <a href="mailto:chunje@iu.edu">chunje@iu.edu</a>
